@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="exercise1.js" defer></script>
+</head>
+<body class="bg-gradient-to-br from-slate-900 to-slate-800 min-h-screen flex items-center justify-center p-4">
+    <div class="w-full max-w-md">
+        <!-- Clock Card -->
+        <div class="bg-white rounded-lg shadow-2xl p-8 mb-6">
+            <h1 id="stylehead" class="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 text-center mb-6">
+                Digital Clock
+            </h1>
+            
+            <div id="time" class="bg-slate-100 rounded-lg p-6 mb-6 text-center">
+                <p class="text-5xl font-mono font-bold text-slate-800">00:00:00</p>
+            </div>
+            
+            <button onclick="stopClock()" class="w-full bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 text-white font-semibold py-3 px-4 rounded-lg transition duration-200 transform hover:scale-105 active:scale-95 shadow-lg">
+                Stop the Clock
+            </button>
+        </div>
+        
+        <!-- Navigation Link -->
+        <div class="text-center">
+            <a href="./malicious.html" target="_blank" rel="noopener noreferrer" class="inline-block bg-slate-700 hover:bg-slate-600 text-white font-semibold py-2 px-6 rounded-lg transition duration-200 shadow-md hover:shadow-lg">
+                Go to Malicious Page
+            </a>
+        </div>
+    </div>
+</body>
+</html>
