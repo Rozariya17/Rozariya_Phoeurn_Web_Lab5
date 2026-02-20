@@ -1,17 +1,23 @@
-# Phoeurn_Rozariya_Web_Lab5
-I. Create a simple demonstration of a tabnapping attack using HTML and JavaScript for educational purposes. 
-    Scenario A 
-        a. You are on Page A. 
-        b. Page A contains a link to Page B using target="_blank" rel="opener ". 
-        c. When the user clicks the link: 
-            i. Page B opens in a new tab. 
-            ii. Page A (original tab) is automatically redirected to Page C. 
-    Scenario B 
-        a. You are on Page A. 
-        b. Page A contains a link to Page B using target="_blank". 
-        c. When the user clicks the link: 
-            i. Page B opens in a new tab. 
-            ii. After a few seconds, Page B redirects to Page C. 
+I. 
+Lab 5 
+Create a simple demonstration of a tabnapping attack using HTML and JavaScript for educational 
+purposes. 
+Scenario A 
+a. You are on Page A. 
+b. Page A contains a link to Page B using target="_blank" rel="opener ". 
+c. When the user clicks the link: 
+i. 
+Page B opens in a new tab. 
+ii. 
+Page A (original tab) is automatically redirected to Page C. 
+Scenario B 
+a. You are on Page A. 
+b. Page A contains a link to Page B using target="_blank". 
+c. When the user clicks the link: 
+i. 
+Page B opens in a new tab. 
+ii. 
+After a few seconds, Page B redirects to Page C. 
 Learning Objectives 
 a. Understand how window.opener works. 
 b. Understand how tabnapping attacks occur. 
@@ -19,9 +25,8 @@ c. Identify the security risk of using target="_blank" without protection.
 d. Apply prevention using rel="noopener noreferrer". 
 ��
 � This exercise is for cybersecurity education only. 
-
-
-II. Dynamic Administrative Division Selector 
+II. 
+Dynamic Administrative Division Selector 
 1. Objective 
 To practice handling asynchronous API calls, managing DOM manipulation, and implementing 
 cascading logic using JavaScript, Tailwind CSS, and DaisyUI. 
